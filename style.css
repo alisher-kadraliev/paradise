@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.img-bg{
+    background-image: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%);
+}
+.hero-text{
+    font-size: 24px;
+    line-height: 27px;
+    font-family: "Arizonia", cursive;
+    display: block;
+}
+.hero-text-2{
+        font-size: 60px;
+    line-height: 70px;
+    color: #2d2c40;
+    font-weight: 300;
+    margin: 0 0 20px;
+    text-transform: capitalize;
+}
+.hero-btn{
+    color: #fff;
+    height: 45px;
+    padding: 0 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%);
+    font: 500 14px/45px 'Poppins', Arial, Helvetica, sans-serif;
+}
+    .hero-arrow{
+        left: 4%;
+    top: 45%;
+    width: 50px;
+    height: 50px;
+    line-height: 51px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    background: #c1bfda;
+    right: 4%;
+    left: auto;
+        background-image: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%);
+}
+.cursive-one {
+    font-size: 24px;
+    line-height: 30px;
+    color: #7a7992;
+    display: block;
+    font-weight: 400;
+    font-family: "Arizonia", cursive;
+}
+.nav-top{
+gap: 20px;
+
+}
+.hero-top{
+    position: relative;
+
+}
+.slider-1-item{
+    position: relative;
+}
+.box{
+    background: #fff;
+    border-radius: 10px;
+    padding: 139px 20px 0;
+    margin-top: 90px;
+    width: 270px;
+}
+.our-section{
+background: #f5f5f9;
+}
+.hb-bg{
+    margin: 0 auto -20px;
+    color: #fff;
+    padding: 0 40px;
+    border-radius: 30px;
+    font: 500 14px/45px 'Poppins', Arial, Helvetica, sans-serif;
+}
+.our-btn{
+    background: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%);
+    text-decoration: none;
+}
+
+.hb-description{
+    color: #000;
+}
+
+.our-title {
+        font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    color: #2d2c40;
+    font-weight: 400;
+        margin: 0 0 15px;
+}
+.text-center {
+}
+.our-text {
+    font-size: 14px;
+    line-height: 24px;  
+}
+.btn {
+}
+.btn-primary {
+}
+
+@media(max-width: 990px) {
+.img-hero{
+position: absolute;
+right: 0;
+width: 100%;
+max-width: 100%;
+height: auto;
+top: 20%;
+}
+.hero-top{
+    position: relative;
+padding: 120px 0;
+
+}
+}   
+@media(max-width: 491px) {
+.img-hero{
+position: absolute;
+right: 0;
+width: 100%;
+max-width: 100%;
+height: auto;
+top: 65%;
+}
+.hero-top{
+    position: relative;
+padding: 60px 0 300px 0;
+
+}
+}
+@media(max-width: 550px) {
+.nav-top{
+     flex-wrap: wrap;
+     flex-direction: column;
+}
+} 
+.pd-text{
+    width: 50%;
+}
+.paradise-column{
+    width: 500px;
+}
+.icon-pd{
+width:80px;
+    height: 62px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    line-height: 120px;
+    font-size: 29px;
+    background-image: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%);
+}
+.icon-pd-1{
+    position: absolute;
+ top: -25px;
+    left: 17px;
+}
+
+
+.d-block {
+}
+.hero-section{
+        background: #f5f5f9;
+}
+
+.img-2{
+    display: flex;
+    margin: 0 auto;
+}
+
+.hero-img{
+    max-width: 80%;
+    width: 80%;
+    height: auto;
+}
+.hero-img-1{
+width: auto;
+    float: right;
+    display: block;
+}
+.hero-content-1{
+    z-index: 2;
+}
+.slider-1 .slick-prev{
+    left: 0;
+    position: absolute;
+}
+.slider-1 .slick-arrow{
+    top: 50%;
+    display: none;
+
+    position: absolute;
+}
+.slider-1 .slick-next{
+        display: none;
+}
+
+.section-our{
+    background: #f5f5f9;
+    padding: 60px 0;
+
+}
+.hero-content {
+}
+.hero-subtitle {
+    font-size: 24px;
+    line-height: 27px;
+    font-family: "Arizonia", cursive;
+    display: block;
+}
+.hero-title {
+    font-size: 60px;
+    line-height: 70px;
+    color: #2d2c40;
+    font-weight: 300;
+    margin: 0 0 20px;
+    text-transform: capitalize;
+}
+.hero-text {
+font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    margin: 0 0 50px;
+    color: #7a7992;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-btn {
+    background: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%);
+        color: #fff;
+        text-decoration: none;
+    height: 45px;
+    padding: 0 40px;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+}
+
+.hero-btn:hover{
+        color: #fff;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+position: relative;
+}
+.slider .slick-arrow{
+position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+               @media(max-width: $breakpoint768) {
+   top: 90%;
+            }
+}
+.slider .slick-arrow.slick-prev{
+    left: -25px;
+ display: inline-block;
+    border: solid #000;
+    border-width: 0 3px 3px 0px;
+    width: 40px;
+    padding: 17px;
+    background: none;
+transform: rotate(135deg);
+           @media(max-width: $breakpoint480) {
+                 width: 4px;
+                     padding: 12px;
+    }
+}
+.slider .slick-arrow.slick-next{
+    right: -25px;
+ transform: rotate(-45deg);
+  display: inline-block;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    padding: 17px;
+    background: none;
+             @media(max-width: $breakpoint480) {
+                 width: 4px;
+                     padding: 12px;
+    }
+}
+.slick-list{
+    height: 456px;
+}
+
+
+.our-content {
+    padding: 40px 0;
+    width: 1100px;
+    display: flex;
+    height: 1000px;
+    margin: 0 auto;
+align-items: center;
+justify-content: center;
+}
+.our-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px!important;
+    padding-right: 20px;
+}
+.our-items-1 {
+margin: 0 0 -110px;
+z-index: 2;
+}
+.our-img {
+    border-radius: 100%;
+    z-index: 210;
+    border: 10px solid rgba(225, 225, 225, 0.7);
+}
+.our-items-2 {
+    background: #fff;
+    border-radius: 10px;
+    padding: 139px 20px 0;
+    position: relative;
+}
+.our-box {
+}
+.our-title {
+}
+.our-text {padding-bottom: 30px;
+}
+.btn {
+}
+.btn-primary {
+}
+.our-btn {
+ position: absolute;
+ bottom: -19px;
+ left: 30%;  
+}
